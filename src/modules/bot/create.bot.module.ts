@@ -5,7 +5,7 @@ import { BotUpdate } from './bot';
 @Module({
   imports: [
     TelegrafModule.forRoot({
-      token: process.env.BOT_TOKEN as string,
+      token: '7945951883:AAHfRHL4O8JnJ5h9KU1etIR0OempkHSfjGw',
     }),
   ],
   providers: [BotUpdate],
